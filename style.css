@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-image: url(./images/geometric-pattern-spiral-neon-gradient-black-background-5k-2560x1440-1202.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+p , h1, form{
+    color: aliceblue;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    line-height: 2;
+    font-size: 3.2em;
+}
+
+#counter { 
+    font-size: 3em;
+}
+
+form input , button{
+    border-radius: 1rem;
+    border: 0;
+    padding: 0.75rem 0.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: rgb(66, 170, 245);
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(66, 129, 245);
+    transition: 0.2s;
+}
